@@ -1,0 +1,16 @@
+<rtcApp>
+  <constant name="dir">/home/cjdegarmo/sentinel1/downloads1</constant>
+  <component name="rtcApp">
+    <property name="sensor name">sentinel1</property>
+    <property name="posting">100</property>
+    <property name="polarizations">VV, VH</property>
+    <property name="epsg id">23839</property>
+    <property name="geocode spacing">10</property>
+    <property name="geocode interpolation method">bilinear</property>
+    <component name="reference">
+      <property name="safe">$dir$/S1A_IW_GRDH_1SDV_20250605T101655_20250605T101720_059509_076346_CE71.zip</property>
+      <property name="orbit directory">$dir$/</property>
+      <property name="output directory">$dir$/sentinel_output</property>
+    </component>
+  </component>
+</rtcApp>

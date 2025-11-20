@@ -1,0 +1,18 @@
+
+<rtcApp>
+   <!-- <constant name="dir">/home/cjdegarmo/sentinel1/downloads1/</constant> -->
+   <component name="rtcApp">
+       <property name="sensor name">sentinel1</property>
+       <property name="posting">100</property>
+       <property name="polarizations">[VV, VH]</property>
+       <!-- <property name="epsg id">32618</property> -->
+       <property name="geocode spacing">10</property>
+       <property name="geocode interpolation method">bilinear</property>
+       <property name="apply thermal noise correction">True</property>
+       <component name="reference">
+       <property name="safe">/mnt/d/radiometricTerrainCorrection/S1A_IW_SLC__1SDV_20221225T233113_20221225T233140_046495_059223_FB79.SAFE</property>
+       <property name="orbit directory">/mnt/d/radiometricTerrainCorrection/S1A_OPER_AUX_POEORB_OPOD_20230114T082021_V20221224T225942_20221226T005942.EOF</property>
+       <property name="output directory">/mnt/d/sentinel1/rtcApp/output</property>
+       </component>
+   </component>
+</rtcApp>

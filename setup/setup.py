@@ -12,7 +12,7 @@
 from __future__ import print_function
 import sys
 import os
-import urllib
+import urllib.request
 import getopt
 import re
 import shutil
@@ -196,6 +196,7 @@ class InstallItem(object):
         """
         user_flags = self.item.properties['user_flags']
         flags_list = self.item.properties['flags_list']
+        flags = self.item.properties['flags']
         SPC = " "
         if user_flags:
             if type(user_flags) in (list, tuple):
